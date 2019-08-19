@@ -7,10 +7,10 @@ def map(array)
   arr
 end
 
-def reduce (array)
+def reduce (array, starting_point = 0)
   val = nil
   array.each do |n|
-    val = yield(n,val = 0)
+    val = yield(n,starting_point)
   end
   val
 end
