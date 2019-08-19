@@ -12,4 +12,5 @@ def reduce (array)
   array.each do |n|
     val += yield(n)
   end
+  val
 end
