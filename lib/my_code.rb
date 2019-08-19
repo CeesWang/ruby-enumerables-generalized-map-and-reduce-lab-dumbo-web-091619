@@ -1,8 +1,9 @@
 # Your Code Here
 def map(array)
-  arr = 
+  arr = []
   array.each do |n|
-    yield(n)
+    arr << yield(n)
   end
+  arr
 end
 
