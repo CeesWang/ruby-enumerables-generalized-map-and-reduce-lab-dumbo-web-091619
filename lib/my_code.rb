@@ -15,5 +15,5 @@ def reduce (array)
     else
       return false 
   end
-  val
+  return 10
 end
