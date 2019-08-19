@@ -7,7 +7,7 @@ def map(array)
   arr
 end
 
-def reduce (array, starting point = 0)
+def reduce (starting point = 0)
   arr [] 
   array.each do |n|
     arr << yield(n)
