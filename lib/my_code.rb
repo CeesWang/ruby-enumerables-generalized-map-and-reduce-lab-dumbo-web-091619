@@ -10,10 +10,7 @@ end
 def reduce (array)
   val = 0 
   array.each do |n|
-    if yield(n)
-      return true 
-    else
-      return false 
+    val = yield(n)
   end
-  return 10
+  val
 end
