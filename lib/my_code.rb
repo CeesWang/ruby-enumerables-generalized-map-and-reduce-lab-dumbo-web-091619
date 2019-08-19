@@ -10,7 +10,7 @@ end
 def reduce (array)
   val = nil
   array.each do |n|
-    val = yield(n,starting_point = 0)
+    val = yield(starting_point = 0, n)
   end
   val
 end
