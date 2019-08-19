@@ -10,6 +10,6 @@ end
 def reduce (array)
   val = ""
   array.each do |n|
-    val + = yield(n)
+    val += yield(n)
   end
 end
