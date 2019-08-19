@@ -1,6 +1,7 @@
 # Your Code Here
 def map(array)
   array.each do |n|
-    yield
+    yield(n)
   end
 end
+
