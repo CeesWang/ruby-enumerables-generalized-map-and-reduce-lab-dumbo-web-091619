@@ -1,4 +1,4 @@
 # Your Code Here
 def map_and_reduce(array)
-  array.
+  yield(1)
 end
