@@ -13,6 +13,7 @@ def reduce (array, starting_point = 0)
     val = yield(n,val)
     if yield(n)
       return false
+    end
   end
   val
 end
