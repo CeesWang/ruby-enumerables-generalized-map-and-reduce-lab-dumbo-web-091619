@@ -8,8 +8,9 @@ def map(array)
 end
 
 def reduce (array)
+  val = nil
   array.each do |n|
-    val += yield(n,starting_point = 0)
+    val = yield(n,starting_point = 0)
   end
   val
 end
